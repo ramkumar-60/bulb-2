@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top:100px;
+            margin-left: 400px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="bulbon()"><img src="ASSET/on.jfif" alt="on"></button>
+    <img src="ASSET/bulb off.jpg" alt="on"id="bulb">
+     <button onclick="bulboff()"><img src="ASSET/off.jfif" alt="off"></button>
+     <script>
+        function bulbon(){
+            document.getElementById("bulb").src="Asset/bulb on.jpg"
+        }
+        function bulboff(){
+            document.getElementById("bulb").src="Asset/bulb off.jpg"
+        }
+        </script>
+</body>
+</html>
